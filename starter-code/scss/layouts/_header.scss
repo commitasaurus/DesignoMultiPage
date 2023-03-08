@@ -1,0 +1,18 @@
+.header {
+  margin-top: 3rem;
+  height: 12.5rem;
+  width: 100%;
+  // background: linear-gradient(to right, $color-peach, $color-light-peach-opac);
+  color: $color-white;
+  position: relative;
+  // background-color: $color-light-peach;
+  & img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #111;
+    fill: #111;
+  }
+}

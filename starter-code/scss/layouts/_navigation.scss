@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  & img {
+    height: 1.5rem;
+    // width: 10%;
+  }
+  & ul {
+    display: flex;
+    gap: 1.5rem;
+    & li {
+      list-style: none;
+      text-decoration: none;
+      & a {
+        text-decoration: none;
+      }
+    }
+  }
+}
